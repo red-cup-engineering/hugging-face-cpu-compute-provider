@@ -1,0 +1,8 @@
+#lang rmn/v2
+(map
+  ("type" "HuggingFaceCpuComputeProviderLaw")
+  ("version" 1)
+  ("precondition" "The Hugging Face edge authenticates one private-Space request; current customer-side runtime evidence identifies both requested and actual hardware as cpu-basic and identifies no persistent volume; and the request conforms exactly to one bounded hugging-face-cpu-compute/v1 operation.")
+  ("operation" "Compute either SHA-256 over at most 4096 UTF-8 bytes or PBKDF2-HMAC-SHA256 over at most 4096 UTF-8 bytes with the provider-fixed public domain salt, 120000 iterations, and 32 output bytes. Serve at most eight computations concurrently and retain no request state.")
+  ("postcondition" "Return one deterministic JSON result or deterministic refusal. Hold no credential, uploaded object, fetched resource, caller program, mutable durable state, or paid hardware authority.")
+  ("refusal" "Refuse unknown, paid, or drifting hardware evidence; persistent storage; public ingress; malformed JSON; duplicate or extra fields; oversized input; variable work factor; arbitrary code; URL fetch; upload; shell; model loading; runtime package installation; or any operation outside the exact contract."))

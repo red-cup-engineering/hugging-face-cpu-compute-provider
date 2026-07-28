@@ -1,0 +1,42 @@
+{
+  "name": "@free-compute/hugging-face-cpu-compute-provider",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A private, restart-safe deterministic compute die admitted only on Hugging Face CPU Basic free hardware.",
+  "scripts": {
+    "test": "python3 -m unittest discover -s test -p 'test_*.py'"
+  },
+  "x-agentic-metro-enterprise": {
+    "node-id": "hugging-face-cpu-compute-provider",
+    "owners": [
+      "561-group",
+      "cloud-compute-services-section"
+    ],
+    "membrane": {
+      "law": "lib/",
+      "lasting-instances": "content/",
+      "append-only-instances": "data/"
+    },
+    "admission": "one authenticated private-Space HTTP request conforming exactly to hugging-face-cpu-compute/v1 while runtime evidence says requested and actual hardware are cpu-basic and no persistent volume is attached",
+    "refusal": "paid or unknown hardware, persistent storage, arbitrary code, caller-selected algorithm or work factor, URL fetch, upload, shell, oversized input, unauthenticated ingress, or durable state"
+  },
+  "license": "LicenseRef-561Group-1.0",
+  "x-semiotic-voxel": {
+    "profile": "org.harmonious-union.semiotic-voxel.v1",
+    "owner": "free-compute",
+    "kind": "capability-cell",
+    "actor": "urn:ame:hugging-face-cpu-compute-provider",
+    "operations": [
+      "hugging-face-cpu-compute-provider"
+    ],
+    "capabilities": [
+      {
+        "capability": "hugging-face-cpu-compute-provider",
+        "faces": [
+          "hugging-face-cpu-compute-provider"
+        ]
+      }
+    ],
+    "package": "@free-compute/hugging-face-cpu-compute-provider"
+  }
+}
