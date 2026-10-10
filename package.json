@@ -1,7 +1,6 @@
 {
   "name": "@red-cup-engineering/hugging-face-cpu-compute-provider",
   "version": "0.1.0",
-  "private": true,
   "description": "A private, restart-safe deterministic compute die admitted only on Hugging Face CPU Basic free hardware.",
   "scripts": {
     "test": "python3 -m unittest discover -s test -p 'test_*.py'"
