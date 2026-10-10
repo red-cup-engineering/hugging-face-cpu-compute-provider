@@ -8,7 +8,6 @@ app_port: 7860
 suggested_hardware: cpu-basic
 ---
 
-# Union Free CPU Compute Assay
 
 Private, deterministic, restart-safe CPU work for the Harmonious Union. The
 service exposes only `GET /health`, `POST /v1/sha256`, and `POST /v1/pbkdf2`.
