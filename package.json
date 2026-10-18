@@ -2,6 +2,11 @@
   "name": "@red-cup-engineering/hugging-face-cpu-compute-provider",
   "version": "0.1.0",
   "description": "A private, restart-safe deterministic compute die admitted only on Hugging Face CPU Basic free hardware.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-web-engineering-services-section.git",
+    "directory": "services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider"
+  },
   "scripts": {
     "test": "python3 -m unittest discover -s test -p 'test_*.py'"
   },
