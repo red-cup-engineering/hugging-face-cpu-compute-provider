@@ -9,5 +9,9 @@
   "scripts": {
     "test": "python3 -m unittest discover -s test -p 'test_*.py'"
   },
-  "license": "LicenseRef-561Group-1.0"
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
 }
