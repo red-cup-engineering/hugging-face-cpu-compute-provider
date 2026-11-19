@@ -1,0 +1,14 @@
+{
+  "name": "@red-cup-engineering/hugging-face-cpu-compute-provider",
+  "version": "0.1.2-dev.0",
+  "description": "A private, restart-safe deterministic compute die admitted only on Hugging Face CPU Basic free hardware.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/hugging-face-cpu-compute-provider.git"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
